@@ -1,0 +1,26 @@
+digraph tas {
+	node [
+		fontname  = "Arial bold" 
+		fontsize  = "14"
+		fontcolor = "red"
+		style     = "rounded, filled"
+		shape     = "circle"
+		fillcolor = "grey90"
+		color     = "blue"
+		width     = "0.5"
+	]
+
+	edge [
+		color     = "blue"
+	]
+
+	18:sw -> 15;
+	15:sw -> 10;
+	10:sw -> 7;
+	10:se -> 4;
+	15:se -> 15;
+	15:sw -> 9;
+	18:se -> 11;
+	11:sw -> 6;
+	11:se -> 1;
+}
